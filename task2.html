@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task2.css">
+    <title>Image Gallery</title>
+</head>
+<body>
+
+    <header>
+        <h1>Website</h1>
+      </header>
+    
+    <div class="gallery">
+        <img src="img1.png" alt="Image 1" class="thumbnail" onclick="openModal('img1.png')">
+        <img src="img2.png" alt="Image 2" class="thumbnail" onclick="openModal('img2.png')">
+        <img src="img3.png" alt="Image 3" class="thumbnail" onclick="openModal('img3.png')">
+    </div>
+
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img src="" alt="Enlarged Image" id="modalImage">
+    </div>
+     
+    <div class="slideshow-container">
+        <div class="slide fade">
+            <img src="img4.png" alt="Image 1">
+        </div>
+        <div class="slide fade">
+            <img src="img5.png" alt="Image 2">
+        </div>
+        <div class="slide fade">
+            <img src="img6.png" alt="Image 3">
+        </div>
+        <div class="slide fade">
+            <img src="img7.png" alt="Image 3">
+        </div>
+        <div class="slide fade">
+            <img src="img11.png" alt="Image 3">
+        </div>
+         <div class="slide fade">
+            <img src="img12.png" alt="Image 3">
+        </div>
+        <div class="slide fade">
+            <img src="img13.png" alt="Image 3">
+        </div>
+        <div class="slide fade">
+            <img src="img14.png" alt="Image 3">
+        </div>
+        <div class="slide fade">
+            <img src="img15.png" alt="Image 3">
+        </div>
+
+    </div>
+
+    
+    <script src="task2.js"></script>
+</body>
+</html>
